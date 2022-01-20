@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box examples</title>
+    <style>
+        .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+        align-content: space-between;
+      }
+      .flexContainer > div, div {
+        background-color: bisque;
+        margin: 10px;
+        width: fit-content;
+
+      }
+
+      header, footer{
+          background-color: aquamarine;
+          min-height: 70px;
+      }
+      
+    .leftbar, .rightbar {
+        background-color: black;
+        color: aliceblue;
+        min-height: 300px;
+        width:20%;
+    }
+    .main {
+        background-color: rgb(229, 143, 143);
+        color: aliceblue;
+        min-height: 300px;
+        width: 60%;
+    }
+
+
+    </style>
+</head>
+<body>
+ 
+    <header> this is going to be our header.</header>
+    
+    <div class="flexContainer">
+
+
+<div class="leftbar">Divison 1
+    <p>Left bar</p>
+<p>hello world</p>
+</div>
+<div class="main">Divison 2 asdasda asda sasdas as dasdas das</div>
+
+<div class="rightbar">Divison 3 : right bar</div>
+
+   
+    
+    </div>
+<footer>
+    our footer is going to be here
+</footer>
+
+</body>
+</html>
