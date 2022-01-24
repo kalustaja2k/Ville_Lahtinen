@@ -1,3 +1,38 @@
 body {
-    background-color: aqua;
+    background-color: rgb(121, 70, 141);
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+footer {
+    background-color: white;
+    text-align: center;
+}
+table,th,td {
+    border: 1px solid black;
+    width: 75%;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+.text {
+    width: 75%;
 }
